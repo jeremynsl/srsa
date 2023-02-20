@@ -24,22 +24,20 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
+    callToAction={{ text: 'Donate Now', href: 'https://donorbox.org/october-2018', icon: 'iconoir:donate' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
+    image={{ src: import('~/assets/images/Isla.png'), alt: 'Isla Janzen Portrait' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+      Supporting <span class="hidden lg:inline">Saskatchewan families<br class="2xl:hidden" /> affected by</span>
+      <span class="text-accent dark:text-white highlight"> Rett Syndrome</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
+        <span class="font-semibold">Saskatchewan Rett Syndrome Association</span> is a non-profit working towards giving
+        these families the support they need.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
     </Fragment>
   </Hero>
 
@@ -49,85 +47,22 @@ const meta = {
 
   <!-- Features Widget *************** -->
 
-  <Features
-    highlight="Features"
-    title="What you get with AstroWind"
-    subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
-    items={[
-      [
-        {
-          title: 'Astro + Tailwind CSS Integration',
-          description:
-            'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-          icon: 'tabler:brand-tailwind',
-        },
-        {
-          title: 'Ready-to-use Components',
-          description:
-            'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-          icon: 'tabler:components',
-        },
-        {
-          title: 'Best Practices',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-          icon: 'tabler:list-check',
-        },
-      ],
-      [
-        {
-          title: 'Excellent Page Speed',
-          description:
-            'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-          icon: 'tabler:rocket',
-        },
-        {
-          title: 'Search Engine Optimization (SEO)',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-          icon: 'tabler:arrows-right-left',
-        },
-        {
-          title: 'Open to new ideas and contributions',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-          icon: 'tabler:bulb',
-        },
-      ],
-    ]}
-  />
-
   <!-- Content Widget **************** -->
 
   <Content
-    highlight="Inside template"
-    title="And what's inside? ..."
-    items={[
-      {
-        title: 'Per ei quaeque sensibus',
-        description:
-          'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-        description:
-          'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-        description:
-          'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
-      },
-    ]}
+    title="Our Mission"
     image={{
-      src: import('~/assets/images/caos.jpg'),
+      src: import('~/assets/images/Zarah.jpg'),
       alt: 'Colorful Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ad vix debet docendi</h3>
-      Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod
-      tacimates.
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Communication and Support</h3>
+
+      We strive to connect Saskatchewan families affected by <span class="text-accent">Rett Syndrome</span> in order to build
+      a supportive community that can listen, offer advice, and a shoulder to lean on. Our goal is to keep our families up
+      on the latest research and treatments by sending them to learning conferences across Canada and the world. We also
+      aim to raise public awareness and fundraise for research.
     </Fragment>
   </Content>
 
@@ -136,185 +71,71 @@ const meta = {
   <Content
     isReversed
     isAfterContent
-    items={[
-      {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
-      {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
-    ]}
     image={{
-      src: import('~/assets/images/vintage.jpg'),
+      src: import('~/assets/images/Brooklyn.jpeg'),
       alt: 'Vintage Image',
     }}
-  />
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Our Impact</h3>
+
+      1 in 10,000 people have Rett syndrome. Although considered rare, there are many families affected by RS in
+      Saskatchewan. There are many researchers all over the world trying to improve the life of people with Rett
+      Syndrome, whether with new therapies or symptomatic treatment and all the way to finding a way to reverse RS! With
+      all this changing research, it can be difficult to wade through all the pertinent information. Finding trusted
+      information is one step to simplifying this journey. There are national and international Rett syndrome
+      conferences that help connect families with the research. Every year we send 1- 2 families to a conference on a
+      reconnaissance mission of sorts, gather info and return home to tell everyone. As a banded community, we can make
+      the tiresome information gathering easier.
+    </Fragment>
+  </Content>
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula.',
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: import('~/assets/images/creativity.jpg'),
-      alt: 'Steps image',
-    }}
-  />
-
   <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
-    items={[
-      {
-        title: 'Headers',
-        description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
-        icon: 'flat-color-icons:todo-list',
-      },
-      {
-        title: 'Content',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
-      },
-    ]}
-  />
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <LatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-			Astro is a very interesting technology. Thanks.
-		`}
-    postIds={[
-      'get-started-website-with-astro-tailwind-css.md',
-      'how-to-customize-astrowind-to-your-brand.md',
-      'useful-resources-to-create-websites.md',
-      'astrowind-template-in-depth.md',
-    ]}
-  />
+  <LatestPosts title="Recent News" />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
-    highlight="FAQs"
+    title="Common Questions"
+    subtitle=""
+    highlight=""
     items={[
       [
         {
-          question: 'What do I need to start?',
+          question: 'What is Rett Syndrome?',
           answer:
-            'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+            'Rett syndrome is a rare, non-inherited genetic neurological disorder that occurs almost exclusively in girls and leads to severe impairments, affecting nearly every aspect of the child’s life: their ability to speak, walk, eat, and even breathe easily.',
         },
         {
-          question: 'How to install the Astro + Tailwind CSS template?',
+          question: 'What causes Rett Syndrome?',
           answer:
-            "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+            'It is caused by a mutation of the MecP2 gene on the X chromosome. Diagnosis is based on symptoms and confirmed by genetic testing.  Less than 1% of cases are inherited from parents - the vast majority is caused by genetic mutation.',
         },
         {
-          question: "What's something that you don't understand?",
+          question: 'What kind of symptoms are common?',
           answer:
-            "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+            'RS symptom severity can vary widely in each individual but typically include: loss of purposeful hand use, loss of language, apraxia, breathing and lung problems, scoliosis, seizures, sleep problems and gastro intestinal problems.  Generally, individuals with Rett syndrome require 24/7 care.',
         },
       ],
       [
         {
-          question: "What's an example of when you changed your mind?",
+          question: 'What about cognitive symptoms?',
           answer:
-            "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+            'Cognitive assessment in children with Rett syndrome is complicated, but we know that they understand far more than they can communicate to us, evidenced by their bright and attentive eyes, and their ability to express a wide spectrum of moods and emotions.',
         },
         {
-          question: 'What is something that you would like to try again?',
-          answer:
-            "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+          question: 'What treatments are available?',
+          answer: 'No clinically-proven treatments currently exist in North America.',
         },
         {
-          question: 'If you could only ask one question to each person you meet, what would that question be?',
+          question: 'What is on the horizon for Rett Syndrome Research?',
           answer:
-            "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+            'The good news is that Rett Syndrome Research is an extremely vibrant space with plenty of exciting possibilities.  Explore some of those possibilities on our Resources page',
         },
       ],
     ]}
@@ -324,10 +145,10 @@ const meta = {
 
   <Stats
     items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
+      { name: 'People Affected', value: '1 in 10k' },
+      { name: 'Years Serving Families', value: '25+' },
+      { name: 'Raised for Families and Research', value: '$35K' },
+      { name: 'Your Help', value: 'Priceless' },
     ]}
   />
 
@@ -335,18 +156,17 @@ const meta = {
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
+      text: 'Donate now',
+      href: 'https://donorbox.org/october-2018',
+      icon: 'iconoir:donate',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      We Need Your <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Help</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Your donation will be put towards research towards treatments, as well as essential supports for families.
     </Fragment>
   </CallToAction>
 </Layout>
