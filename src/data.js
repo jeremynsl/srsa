@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'News',
-      href: getBlogPermalink(),
+      href: 'https://facebook.com/saskrett',
     },
     {
       text: 'Contact',
