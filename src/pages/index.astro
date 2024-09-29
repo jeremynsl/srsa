@@ -25,11 +25,11 @@ const meta = {
 
   <Hero
     callToAction={{ text: 'Donate Now', href: 'https://donorbox.org/october-2018', icon: 'iconoir:donate' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/Isla.png'), alt: 'Isla Janzen Portrait' }}
+    {/* callToAction2={{ text: 'Learn more', href: '#features' }} */}
+    image={{ src: import('~/assets/images/Isla.png'), alt: 'Child with Rett Syndrome named Isla' }}
   >
     <Fragment slot="title">
-      Supporting <span class="hidden lg:inline">Saskatchewan families<span class="2xl:hidden" /> affected by</span>
+      Supporting <span class="hidden lg:inline">Saskatchewan families<span class="2xl:hidden"></span> affected by</span>
       <span class="text-accent highlight"> Rett Syndrome</span>
     </Fragment>
 
@@ -43,7 +43,7 @@ const meta = {
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
@@ -53,7 +53,7 @@ const meta = {
     title="Our Mission"
     image={{
       src: import('~/assets/images/Zarah.jpg'),
-      alt: 'Colorful Image',
+      alt: 'Child with Rett Syndrome named Zarah',
     }}
   >
     <Fragment slot="content">
@@ -73,20 +73,26 @@ const meta = {
     isAfterContent
     image={{
       src: import('~/assets/images/Brooklyn.jpeg'),
-      alt: 'Vintage Image',
+      alt: 'Child with Rett Syndrome named Brooklyn',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Our Impact</h3>
 
-      1 in 10,000 people have Rett syndrome. Although considered rare, there are many families affected by RS in
-      Saskatchewan. There are many researchers all over the world trying to improve the life of people with Rett
-      Syndrome, whether with new therapies or symptomatic treatment and all the way to finding a way to reverse RS! With
-      all this changing research, it can be difficult to wade through all the pertinent information. Finding trusted
-      information is one step to simplifying this journey. There are national and international Rett syndrome
-      conferences that help connect families with the research. Every year we send 1- 2 families to a conference on a
-      reconnaissance mission of sorts, gather info and return home to tell everyone. As a banded community, we can make
-      the tiresome information gathering easier.
+      <p>
+        One in every 10,000 individuals is affected by Rett Syndrome (RS). Although it is classified as a rare
+        condition, many families in Saskatchewan are impacted by this disorder. Researchers worldwide are dedicated to
+        enhancing the lives of those with Rett Syndrome through innovative therapies, symptomatic treatments, and even
+        efforts to reverse the condition. With the rapidly evolving research landscape, it can be challenging to
+        navigate the wealth of information available. Accessing reliable resources is a crucial step in simplifying this
+        journey.
+      </p><br>
+      <p>
+        National and international Rett Syndrome conferences serve as valuable platforms for connecting families with
+        the latest research. Each year, we sponsor one to two families to attend these conferences on a reconnaissance
+        mission, gathering insights to share with our community upon their return. By working together as a united
+        community, we can streamline the often overwhelming process of information gathering.
+      </p>
     </Fragment>
   </Content>
 
@@ -109,7 +115,7 @@ const meta = {
         {
           question: 'What is Rett Syndrome?',
           answer:
-            'Rett syndrome is a rare, non-inherited genetic neurological disorder that occurs almost exclusively in girls and leads to severe impairments, affecting nearly every aspect of the child’s life: their ability to speak, walk, eat, and even breathe easily.',
+            'Rett syndrome is a random genetic neurological disorder that occurs almost exclusively in girls and leads to severe impairments, affecting nearly every aspect of the child’s life: their ability to speak, walk, eat, and even breathe easily.',
         },
         {
           question: 'What causes Rett Syndrome?',

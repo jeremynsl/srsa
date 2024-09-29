@@ -4,7 +4,7 @@ import Logo from '~/components/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 
-import { getHomePermalink, getAsset } from '~/utils/permalinks';
+import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
   text?: string;
@@ -105,7 +105,7 @@ const {
             <a
               class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
               aria-label="Facebook"
-              href={getAsset('/rss.xml')}
+              href='https://www.facebook.com/SaskRett'
             >
               <Icon name="tabler:brand-facebook" class="w-5 h-5" />
             </a>

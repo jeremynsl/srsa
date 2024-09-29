@@ -1,7 +1,7 @@
 ---
 title: Test Blog Post
 description: This is a post desc
-image: public/box.jpg
+image: ~/assets/images/stickers.jpg
 date: 2023-02-23T16:07:15.712Z
 ---
 <!--StartFragment-->
