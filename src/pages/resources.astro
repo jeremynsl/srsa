@@ -1,0 +1,33 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Email from '~/components/widgets/Email.astro'
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const meta = {
+  title: "Rett Syndrome Resources",
+};
+---
+
+<Layout {meta}>
+  <div class="h-full mx-auto md:grid grid-flow-col auto-cols-max place-content-center gap-4 py-4">
+<div class="h-full mx-auto"><a href="https://www.rett.ca/" class="mx-auto my-4 h-80 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ontario Rett syndrome Association</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400">ORSA is the largest RS organization in Canada.  They encourage anyone affected by RS to become a member (it’s free).  They host a conference every second year. </p>
+</a><a href="http://rettsyndrome.org/" class="mx-auto h-80 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">International Rett syndrome Foundation</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400">“Our Mission: To accelerate full spectrum research to cure Rett syndrome and empower families with information, knowledge and connectivity.”</p>
+</a></div>
+
+<div class="h-full">
+<a href="http://girlpower2cure.org/" class="mx-auto my-4 h-80 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Girl Power 2 Cure</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400">Founded in 2006, Girl Power 2 Cure is a dedicated and vibrant nonprofit organization leading a movement to end Rett Syndrome, a severe neurological disorder that primarily affects girls but does affect boys as well. We are here to respond to the urgent need for support, education, mainstream awareness and treatments.</p>
+</a><a href="http://canadianrettsyndromeregistry.com/" class="mx-auto h-80 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Canadian Rett Syndrome Registry</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400">This registry will serve to improve the quality of life of people affected by Rett Syndrome by enabling research into new and improved treatments and by promoting up-to-date and consistent care across Canada.</p>
+</a></div>
+
+</div>
+</Layout>

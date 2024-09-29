@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Sask Rett Syndrome Association',
 
-  origin: 'http://saskrett.com',
+  origin: 'https://saskrett.com',
   basePathname: '/',
   trailingSlash: false,
 

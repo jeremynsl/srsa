@@ -46,7 +46,8 @@ export default defineConfig({
         config: { forward: ['dataLayer.push'] },
       })
     ),
-
+    
+  
     compress({
       css: true,
       html: {
